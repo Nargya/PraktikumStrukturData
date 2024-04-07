@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # <h1 align="center">Laporan Praktikum Modul Sorting</h1>
 <p align="center">Naufal Alif Anargya</p>
 <p align="center">2311110041</p>
