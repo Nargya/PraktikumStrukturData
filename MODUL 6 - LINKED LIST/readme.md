@@ -1,4 +1,4 @@
-# <h1 align="center">Laporan Praktikum Modul STRUCT</h1>
+# <h1 align="center">Laporan Praktikum Modul Linked list</h1>
 <p align="center">Naufal Alif Anargya</p>
 <p align="center">2311110041</p>
 
