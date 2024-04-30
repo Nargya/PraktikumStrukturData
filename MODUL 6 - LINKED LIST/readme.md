@@ -10,7 +10,7 @@ Linked list berguna untuk dipelajari karena dua alasan. Yang paling jelas, linke
 #### Linked list circular
 
 Linked list circular adalah jenis linked list di mana simpul terakhir dari daftar menunjuk kembali ke simpul pertama, membentuk sebuah lingkaran atau perulangan. Karakteristik ini membedakannya dari daftar taut tradisional, di mana simpul terakhir biasanya menunjuk ke null, yang menunjukkan akhir daftar. Dalam daftar berantai melingkar, tidak ada penunjuk nol di bagian akhir; sebaliknya, simpul terakhir menunjuk kembali ke simpul pertama, menciptakan struktur perulangan. Perilaku perulangan ini memungkinkan penelusuran terus menerus melalui daftar.[2]
-C++
+```C++
 #include <iostream>
 
 struct ListNode {
@@ -77,13 +77,13 @@ int main() {
     return 0;
 }
 
-
+```
 
 #### Linked list non-circular
 
 Linked list satu arah, atau yang juga dikenal sebagai singly linked list, adalah jenis linked list di mana setiap node hanya memiliki satu pointer yang menunjuk ke node berikutnya dalam urutan linear. Node terakhir dalam linked list memiliki pointer yang menunjuk ke null, menandakan akhir dari linked list. Dalam singly linked list, traversal atau perjalanan hanya bisa dilakukan dari head hingga tail, dan tidak bisa mundur ke node sebelumnya. Operasi dasar seperti penambahan dan penghapusan elemen biasanya lebih efisien dalam singly linked list.[3]
 
-C++
+```C++
 #include <iostream>
 
 // Definisi simpul (node) dalam linked list
@@ -162,13 +162,13 @@ int main() {
     return 0;
 }
 
-
+```
 
 ## Guided 
 
 ### 1. Linked list non-circular
 
-C++
+```C++
 #include <iostream>
 using namespace std;
 
@@ -381,12 +381,12 @@ int main() {
     return 0;
 }
 
-
+```
 Program tersebut adalah implementasi dari sebuah linked list non-circular dalam C++. Program ini memiliki fungsi-fungsi dasar seperti penambahan data di depan, di belakang, dan di tengah linked list, penghapusan data di depan, di belakang, dan di tengah linked list, serta pengubahan data di depan, di belakang, dan di tengah linked list. Selain itu, terdapat fungsi untuk menghitung jumlah node dalam linked list, mengecek apakah linked list kosong, serta membersihkan linked list dengan menghapus semua node. Program ini kemudian melakukan serangkaian operasi pada linked list yang dibuat, seperti menambah, menghapus, dan mengubah data, serta menampilkan isi linked list setiap kali operasi dilakukan. Akhirnya, program membersihkan linked list dan mengakhiri eksekusi.
 
 ### 2. Linked list circular
 
-C++
+```C++
 #include <iostream>
 using namespace std;
 
@@ -523,7 +523,7 @@ int main() {
     return 0;
 }
 
-
+```
 
 Program di atas merupakan implementasi dari sebuah doubly linked list dalam C++. Program ini memiliki kelas Node yang merepresentasikan simpul dalam linked list dan kelas DoublyLinkedList yang mengelola operasi-operasi pada linked list, seperti penambahan data di awal, penghapusan data dari awal, pengubahan data, penghapusan seluruh data, dan penampilan isi linked list. Dalam main function, program memberikan menu pilihan untuk melakukan operasi-operasi tersebut, seperti menambah data, menghapus data, mengubah data, membersihkan data, menampilkan data, dan keluar dari program. Program terus berjalan hingga pengguna memilih untuk keluar dengan memilih opsi keluar (pilihan 6).
 
@@ -532,7 +532,7 @@ Program di atas merupakan implementasi dari sebuah doubly linked list dalam C++.
 ### 1. Buatlah program menu Linked List Non Circular untuk menyimpan Nama dan NIM mahasiswa, dengan menggunakan input dari user. Buatlah menu untuk menambahkan, mengubah, menghapus, dan melihat Nama dan  NIM mahasiswa, berikut contoh tampilan output dari nomor 1:
 ![Screenshot 2024-04-30 224144](https://github.com/Nargya/PraktikumStrukturData/assets/161468671/e27c6cf3-edaa-40e3-a386-b00b6c00211c)
 
-C++
+```C++
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
@@ -829,7 +829,7 @@ int main() {
     return 0;
 }
 
-
+```
 #### Output:
 ![Screenshot 2024-04-30 224816](https://github.com/Nargya/PraktikumStrukturData/assets/161468671/af358de6-16c3-47b8-9b1d-bf926aa8c754)
 
