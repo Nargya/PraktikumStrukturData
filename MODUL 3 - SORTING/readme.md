@@ -709,4 +709,3 @@ Algoritma sorting merupakan teknik untuk mengurutkan data dalam suatu urutan ter
 [2] YANTI, Fitri; ERIANA, Emi Sita. Algoritma Sorting dan Searching. 2024.
 
 [3] A. Sonita and F. Nurtaneo, “ANALISIS PERBANDINGAN ALGORITMA BUBBLE SORT, MERGE SORT, DAN QUICK SORT DALAM PROSES PENGURUTAN KOMBINASI ANGKA DAN HURUF”, pseudocode, vol. 2, no. 2, pp. 75–80, Aug. 2016.
->>>>>>> 2951b20ed3c56ac2cd54c5c4adb3495e2f841599
