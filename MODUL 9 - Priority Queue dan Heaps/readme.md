@@ -11,8 +11,8 @@ Selain itu terdapat dua operasi dasat yang digunakan untuk mengubah data pada al
 - Enqueue, yaitu proses menambahkan data ke akhir urutan data.
 - Dequeue, yaitu proses menghapus data pada awal urutan data [1].
 
-**Contoh program priority queue sederhana** :
-```C++
+*Contoh program priority queue sederhana* :
+C++
 #include <iostream>
 #include <queue>
 
@@ -35,9 +35,9 @@ int main() {
 
     return 0;
 }
-```
 
-**Penjelasan :**  
+
+*Penjelasan :*  
 Program tersebut merupakan contoh penggunaan priority_queue. Pertama, kita membuat objek priority_queue yang menyimpan bilangan bulat. Kemudian, kita menambahkan beberapa elemen ke dalam priority queue menggunakan fungsi push(). Setelah itu, kita mencetak elemen-elemen dari priority queue dengan menggunakan fungsi top() untuk mendapatkan elemen dengan prioritas tertinggi dan pop() untuk menghapus elemen tersebut. Hasil cetakan menunjukkan elemen-elemen yang terurut secara menurun berdasarkan prioritas, di mana elemen dengan nilai tertinggi muncul terlebih dahulu.
 
 ## Heaps
@@ -87,8 +87,8 @@ Binomial heap adalah heap yang dibuat dengan menggunakan pohon binomial. Pohon b
 - Fibonacci Heap  
 Fibonacci heap adalah kumpulan pohon yang membentuk minimum heap. Pohon dalam struktur data ini tidak memiliki bentuk yang tertentu dan pada kasus yang ekstrim heap ini memiliki semua elemen dalam pohon yang berbeda atau sebuah pohon tunggal dengan tinggi n. Keunggulan dari Fibonacci heap adalah ketika menggabungkan heap cukup dengan menggabungkan dua list pohon [3]. 
 
-**Contoh program :**
-```C++
+*Contoh program :*
+C++
 #include <iostream>
 #include <algorithm>
 
@@ -144,14 +144,14 @@ int main() {
 
     return 0;
 }
-```
 
-**Penjelasan :**  
+
+*Penjelasan :*  
 Program tersebut merupakan implementasi algoritma Heap Sort. Algoritma ini menggunakan struktur data heap (tumpukan) untuk mengurutkan array secara menaik. Fungsi heapify() digunakan untuk membangun tumpukan maksimum, di mana setiap elemen di posisi i akan ditukar dengan salah satu anaknya yang lebih besar jika ada, untuk menjaga sifat tumpukan maksimum. Fungsi buildHeap() digunakan untuk membuat tumpukan maksimum dari array, sementara heapSort() melakukan ekstraksi elemen terbesar dari tumpukan maksimum secara berulang dan memperbaiki sisa array yang belum diurutkan dengan heapify(). Program kemudian mencetak array sebelum diurutkan, mengurutkan array menggunakan algoritma Heap Sort, dan mencetak array setelah diurutkan.
 
 ## Guided 
 
-```C++
+C++
 #include  <iostream>
 #include <algorithm>
 
@@ -269,12 +269,12 @@ int main() {
     }
     return 0;
 }
-```
+
 
 ### Output : 
 ![Screenshot 2024-05-20 140410](https://github.com/Nargya/PraktikumStrukturData/assets/161468671/18726965-9f19-4d4b-b9cc-abf70b9e1c25)
 
-**Penjelasan :**  
+*Penjelasan :*  
 Code tersebut merupakan implementasi struktur data priority queue menggunakan tumpukan maksimum (max-heap). Program ini mendefinisikan operasi-operasi dasar seperti insert, extractMax, changePriority, dan remove untuk menambahkan elemen ke dalam priority queue, menghapus elemen dengan prioritas tertinggi, mengubah prioritas elemen, dan menghapus elemen tertentu. Fungsi shiftUp dan shiftDown digunakan untuk memastikan bahwa sifat tumpukan maksimum terjaga saat operasi-insert dan operasi-remove dilakukan. Program menguji implementasi ini dengan menambahkan beberapa elemen ke dalam priority queue, mengekstrak elemen dengan prioritas tertinggi, mengubah prioritas sebuah elemen, dan menghapus sebuah elemen. Hasil operasi-operasi tersebut kemudian dicetak untuk memverifikasi keberhasilan dari implementasi priority queue.
 
 ### Full Code screenshot : 
@@ -282,7 +282,7 @@ Code tersebut merupakan implementasi struktur data priority queue menggunakan tu
 
 ## Unguided 
 1. Modifikasi guided diatas yang mana heap dikonstruksi secara manual berdasarkan user
-```C++
+C++
 #include <iostream>
 #include <algorithm>
 
@@ -408,12 +408,12 @@ int main() {
     }
     return 0;
 }
-```
+
 
 ### Output :
 ![Screenshot 2024-05-20 140023](https://github.com/Nargya/PraktikumStrukturData/assets/161468671/a169f21e-7596-4455-a196-c284be222384)
 
-**Penjelasan :**  
+*Penjelasan :*  
 Kode tersebut melaksanakan struktur data antrian prioritas (priority queue) dengan tumpukan maksimum (max-heap). Memasukkan banyak elemen ke dalam antrian prioritas dan kemudian melakukan hal-hal seperti mengambil elemen dengan prioritas tertinggi, mengubah prioritas suatu elemen, dan menghapus elemen tertentu dari antrian prioritas dengan aplikasi ini. Fungsi seperti "insert", "extractMax", "changePriority", dan "remove" melakukan semua operasi. Fungsi-fungsi ini menggunakan sifat tumpukan maksimum untuk menjaga urutan prioritas yang tepat. Sebelum dan setelah setiap operasi, program mencetak antrian prioritas untuk memastikan bahwa operasi tersebut berhasil.
 
 ### Full code screenshot :
