@@ -23,7 +23,8 @@ dengan rumus Euler yaitu n – e + f = 2, dengan n adalah banyaknya simpul, e ad
 sisi dan f adalah banyaknya wilayah [1]. 
 
 ### Jenis Graph
-1. *Graph Sederhana* 
+1. *Graph Sederhana*
+   
 Graf sederhana G adalah graf yang ∀ simpul (V) ∄
 sisi (E) yaitu sisi gelang dan sisi ganda.
 Misalkan graf sederhana direpresentasikan
@@ -39,6 +40,7 @@ tidak memiliki sisi gelang dan sisi ganda [2].
 
 
 2. *Graph Tidak Sederhana*
+    
 Graf tidak sederhana G adalah graf yang ∀ simpul
 (V), ∃ sisi gelang atau sisi ganda maupun keduanya.
 Dengan kata lain graf tidak sederhana G = (V, E)
@@ -63,6 +65,7 @@ sama [2].
 
 
 3. *Graph Tidak Berarah*
+    
 Graf tidak berarah G adalah graf yang sisinya sama
 dimana (u, v) = (v, u).
 Dengan kata lain sisinya tidak mempunyai
@@ -75,6 +78,7 @@ setiap simpul (u, v) = (v, u) adalah sisi yang sama [2].
 
 
 4. *Graph Berarah*
+   
 Graf berarah G adalah graf yang sisinya tidak sama
 dan diberi arah dimana (u, v) ≠ (v, u).
 Misalkan graf berarah direpresentasikan seperti
@@ -97,6 +101,7 @@ kota (jalan searah atau dua arah), dan sebagainya [2].
 
 
 5. *Graph lengkap*
+   
 Graf lengkap G adalah graf yang ∀ simpul (V) , ∃
 sisi (E) yang terhubung antara setiap dua simpul dan
 dinotasikan dengan 𝐾𝑛 [2].
@@ -115,6 +120,7 @@ dan sisinya = 10 [2].
 ![Screenshot 2024-06-10 055946](https://github.com/Nargya/PraktikumStrukturData/assets/161468671/95a2ea1d-af7a-4695-b147-121d4daa1d9b)
 
 6. *Graph Terhubung*
+   
 Graf terhubung G adalah graf tidak berarah G jika
 ∀ pasang simpul u dan v dalam himpunan V ∃ lintasan
 dari u ke v dan jika tidak, maka G disebut sebagai
